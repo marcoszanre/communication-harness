@@ -1,0 +1,8 @@
+{
+  "name": "communication-harness",
+  "private": true,
+  "description": "Installs playwright-cli locally for Communication Harness.",
+  "dependencies": {
+    "@playwright/cli": "0.1.21"
+  }
+}

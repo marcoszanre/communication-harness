@@ -1,0 +1,26 @@
+{
+  "browser": {
+    "browserName": "chromium",
+    "launchOptions": {
+      "headless": false
+    },
+    "userDataDir": ".profile"
+  },
+  "network": {
+    "blockedOrigins": [
+      "*.doubleclick.net",
+      "*.googlesyndication.com",
+      "*.googleadservices.com",
+      "*.googletagservices.com",
+      "adservice.google.com",
+      "*.adnxs.com",
+      "*.amazon-adsystem.com",
+      "*.criteo.com",
+      "*.criteo.net",
+      "*.taboola.com",
+      "*.outbrain.com",
+      "onesignal.com",
+      "*.onesignal.com"
+    ]
+  }
+}

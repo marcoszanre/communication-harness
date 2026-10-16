@@ -1,0 +1,19 @@
+{
+  "executor": {
+    "provider": "azure",
+    "model": "",
+    "endpoint": "",
+    "reasoning": "",
+    "max_tokens": 4000
+  },
+  "planner": {
+    "provider": "off",
+    "model": "",
+    "endpoint": "",
+    "reasoning": "",
+    "max_tokens": 4000
+  },
+  "planner_scope": "actions",
+  "allow_local_downloads": false,
+  "azure_endpoint": ""
+}

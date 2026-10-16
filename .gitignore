@@ -1,0 +1,26 @@
+# Python / Node
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+*.log
+
+# Local secrets and environment files (keys live in environment variables, never in the repo)
+.env
+.env.*
+*.pem
+*.key
+settings.json
+settings.json.tmp
+telegram.json
+telegram.json.tmp
+
+# Personal runtime data - never commit:
+# browser profile (cookies and logins), CLI scratch files, session logs, long-term and session memory,
+# taught playbooks (recordings of your own accounts) and per-session workspaces (page texts, screenshots)
+.profile/
+.playwright-cli/
+logs/
+memory/
+playbooks/
+workspaces/
